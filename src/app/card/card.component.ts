@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class CardComponent {
 
+  plano = {
+    tipo: 'Nacional',
+    valor:1250,
+  }
+
+
 }
