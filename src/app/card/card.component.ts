@@ -7,14 +7,15 @@ import { Component } from '@angular/core';
                   <div class="card__plan card__item">Plano <b>teste</b></div>
                   <div class="card__price card__item">R$ {{plano.valor}}</div>
                   <app-card-button></app-card-button>
+                  <app-card-cancel-button></app-card-cancel-button> 
                 </div>`,
   styleUrl: './card.component.scss'
 })
 export class CardComponent {
 
   plano = {
-    tipo: 'Nacional',
-    valor:1250,
+    tipo: 'adsada aa',
+    valor:300,
   }
 
 
